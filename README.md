@@ -1,4 +1,3 @@
-# AI-Powered-Q-A
 
 # AI-Powered Q&A Application
 
@@ -25,7 +24,7 @@ This project is an AI-powered Q&A application designed to deliver intelligent an
 ## Technologies Used
 - **Backend**: FastAPI
 - **Frontend**: React
-- **AI Service**: [Specify AI Service Name]
+- **AI Service**: Cohere
 
 ## Setup and Installation
 Follow these steps to set up and run the application on your local machine.
@@ -39,21 +38,21 @@ Ensure you have the following installed on your system:
 
 ### Steps
 1. Clone the repository:
-   ```bash
+   ```terminal
    git clone https://github.com/your-username/ai-qa-app.git
    cd ai-qa-app
    ```
 
 2. Set up the backend:
-   ```bash
+   ```terminal
    cd backend
    python -m venv venv
-   source venv/bin/activate # For Windows: venv\Scripts\activate
+   source venv/bin/activate  # For Windows: venv\Scripts\activate
    pip install -r requirements.txt
    ```
 
 3. Set up the frontend:
-   ```bash
+   ```terminal
    cd ../frontend
    npm install
    ```
@@ -68,7 +67,7 @@ Ensure you have the following installed on your system:
 ## Running the Application Locally
 
 1. Start the backend server:
-   ```bash
+   ```terminal
    cd backend
    uvicorn main:app --reload
    ```
@@ -76,7 +75,7 @@ Ensure you have the following installed on your system:
    The backend will be available at `http://localhost:8000`.
 
 2. Start the frontend server:
-   ```bash
+   ```terminal
    cd frontend
    npm start
    ```
@@ -86,10 +85,11 @@ Ensure you have the following installed on your system:
 3. Open your browser and navigate to `http://localhost:3000` to use the application.
 
 ## AI Service Details
-This project uses **[Specify AI Service Name]** for its robust natural language processing capabilities. The service was selected for the following reasons:
-- **High Accuracy**: Delivers precise and relevant answers.
-- **Scalability**: Handles large volumes of queries efficiently.
-- **Ease of Integration**: Provides an intuitive API for seamless integration with the backend.
+This project uses COHERE for its robust natural language processing capabilities. The service was selected for the following reasons:
+- High Accuracy: Delivers precise and relevant answers.
+- Scalability: Handles large volumes of queries efficiently.
+- Ease of Integration: Provides an intuitive API for seamless integration with the backend.
+- Cost: It provides numerous api calls in its free model itself
 
 ## Contributing
 Contributions are welcome! To contribute:
